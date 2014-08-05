@@ -19,7 +19,7 @@ ReviewRoulette::Application.configure do
   # Generate digests for assets URLs
   config.assets.digest = true
 
-  config.action_mailer.default_url_options = { :host => 'review-roulette.herokuapp.com' }
+  config.action_mailer.default_url_options = { :host => 'dry-tor-1986.herokuapp.com' }
 
   # Defaults to Rails.root.join("public/assets")
   # config.assets.manifest = YOUR_PATH
