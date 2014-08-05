@@ -1,5 +1,5 @@
 class ReviewMailer < ActionMailer::Base
-  default from: "\"Review roulette\" <no-reply@review-roulette.com>"
+  default from: "\"Review roulette\" <no-reply@yahoo-inc.com>"
 
   def review(review, user)
     @user = user

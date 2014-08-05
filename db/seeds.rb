@@ -7,16 +7,9 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 players = [
-  { name: 'Emanuel Petre', email: 'emanuel.petre@ziliko.com' }, 
-  { name: 'Jeremy Fabre',  email: 'jeremy.fabre@ziliko.com' }, 
-  { name: 'Alex Rouillard', email: 'alex.rouillard@ziliko.com' }, 
-  { name: 'Alexander Southern', email: 'alexander.southen@ziliko.com' }, 
-  { name: 'Francois Oligny-Lemieux', email: 'francois.oligny@ziliko.com' },
-  { name: 'Pierre Derval', email: 'pierre.derval@ziliko.com' } 
+ { name: 'Alex Seville', email: 'seville@yahoo-inc.com' }
 ].select{|p| Player.find_by_email(p[:email]).nil? }
 
-#players = [
-#  { name: 'Jeremy Fabre',  email: 'jimboxx7@hotmail.com' }, 
-#].select{|p| Player.find_by_email(p[:email]).nil? }
+
 
 Player.create(players)
